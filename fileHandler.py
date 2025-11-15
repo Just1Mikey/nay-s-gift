@@ -62,5 +62,5 @@ def parseJson(choice):
 
             listOfBossDicts.append(bossDataDict)
 
-        print(listOfBossDicts)
         return listOfBossDicts
+ 
