@@ -1,0 +1,34 @@
+{
+    "expedition": "Tricephalos",
+    "bosses": [
+        {
+            "bossName": "Gladius Beast of Night",
+
+            "strongAgainst": ["Fire"],
+            "weakAgainst": ["Holy","Sleep"],
+            "stance": 120,
+            "damage": ["Standard", "Fire"],
+            "inflicts": null,
+
+            "negations": {   
+                    "standardDamage": 0,
+                    "slashDamage": 0,
+                    "strikeDamage": 0,
+                    "pierceDamage": -10,
+                    "magicDamage": 0,
+                    "fireDamage": 50,
+                    "lightningDamage": 0,
+                    "holyDamage": -35
+            },
+
+            "resistances": {
+                    "poison": [542,999],
+                    "scarletRot": [252,542,999],
+                    "bloodloss": [252,542,999],
+                    "frostbite": [542,999],
+                    "sleep": [154,252,542,999],
+                    "madness": null
+            }
+        }
+    ]
+}

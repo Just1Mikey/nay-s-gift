@@ -1,0 +1,34 @@
+{
+    "expedition": "Darkdrift Knight",
+    "bosses": [
+        {
+            "bossName": "Fulghor Champion of Nightglow",
+
+            "strongAgainst": ["Holy"],
+            "weakAgainst": ["Lightning"],
+            "stance": 155,
+            "damage": ["Standard", "Holy"],
+            "inflicts": null,
+
+            "negations": {   
+                    "standardDamage": 0,
+                    "slashDamage": 0,
+                    "strikeDamage": 0,
+                    "pierceDamage": 0,
+                    "magicDamage": 0,
+                    "fireDamage": 0,
+                    "lightningDamage": -20,
+                    "holyDamage": 30
+            },
+            
+            "resistances": {
+                    "poison": [154,252,542,999],
+                    "scarletRot": [154,252,542,999],
+                    "bloodloss": [154,252,542,999],
+                    "frostbite": [154,252,542,999],
+                    "sleep": [154,252,542,999],
+                    "madness": null
+            }
+        }
+    ]
+}

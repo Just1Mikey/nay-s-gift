@@ -1,0 +1,65 @@
+{
+    "expedition": "Sentient Pest",
+    "bosses": [ 
+        {
+            "bossName": "Gnoster, Wisdom of Night (Moth)",
+
+            "strongAgainst": ["Magic"],
+            "weakAgainst": ["Fire","Scarlet Rot","Blood Loss","Frostbite"],
+            "stance": 100,
+            "damage": ["Standard", "Strike", "Magic"],
+            "inflicts": ["Poison"],
+
+            "negations": {   
+                    "standardDamage": -15,
+                    "slashDamage": -25,
+                    "strikeDamage": -15,
+                    "pierceDamage": -25,
+                    "magicDamage": 50,
+                    "fireDamage": -40,
+                    "lightningDamage": 10,
+                    "holyDamage": 10
+            },
+            
+            "resistances": {
+                    "poison": [542,999],
+                    "scarletRot": [154,252,542,999],
+                    "bloodloss": [154,252,542,999],
+                    "frostbite": [154,252,542,999],
+                    "sleep": [542,999],
+                    "madness": null
+            }
+        },
+        {
+            "bossName": "Faurtis Stoneshield (Scorpion)",
+
+            "strongAgainst": ["Magic"],
+            "weakAgainst": ["Fire","Scarlet Rot","Blood Loss","Frostbite"],
+            "stance": 100,
+            "damage": ["Standard", "Strike", "Magic"],
+            "inflicts": null,
+
+            "negations": {   
+                    "standardDamage": 10,
+                    "slashDamage": 20,
+                    "strikeDamage": -20,
+                    "pierceDamage": -10,
+                    "magicDamage": 10,
+                    "fireDamage": -35,
+                    "lightningDamage": 10,
+                    "holyDamage": 10
+            },
+            
+            "resistances": {
+                    "poison": [252,542,999],
+                    "scarletRot": [154,252,542,999],
+                    "bloodloss": [154,252,542,999],
+                    "frostbite": [154,252,542,999],
+                    "sleep": [154,252,542,999],
+                    "madness": null
+            }
+        }
+    ] 
+}  
+
+    
