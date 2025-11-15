@@ -1,4 +1,4 @@
-RESOLUTION = "1280x850"
+RESOLUTION = "1440x850"
 TITLE = "Nigthreign Run Tracker for my honey <3"
 THEME = "dark"
 FONT_FAMILY = "Segoe UI"

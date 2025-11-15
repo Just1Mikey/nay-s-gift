@@ -25,11 +25,11 @@ class App(ctk.CTk):
         self.optionMenu.set("Choose Expedition")
         self.optionMenu.place(x=20, y=20)
         self.timerLabel = ctk.CTkLabel(self, text="Run Time: 00:00:00", font=self.optionMenuFont)
-        self.timerLabel.place(x=600, y=60)
+        self.timerLabel.place(x=700, y=60)
         self.timeStartButton = ctk.CTkButton(self, text="Start Run", font=self.optionMenuFont, command=self.startTimer)
-        self.timeStartButton.place(x=600, y=20)
+        self.timeStartButton.place(x=700, y=20)
         self.phaseLabel = ctk.CTkLabel(self, text="Phase: N/A", font=self.optionMenuFont)
-        self.phaseLabel.place(x=600, y=120)
+        self.phaseLabel.place(x=700, y=120)
 
     def startTimer(self):
         # Timer function to update the run time every second
