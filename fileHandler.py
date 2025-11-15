@@ -15,7 +15,7 @@ def parseJson(choice):
     
         listOfBossDicts = []
 
-        # Parse each boss's data and format it into a dictionary because of the damn Sentient Pest
+        # Parse each boss's data and format it into a dictionary list because of the damn Sentient Pest
         for i, boss in enumerate(bossDataJson["bosses"]):
             bossNameStr = bossDataJson["bosses"][i]["bossName"]
             resistantTo = bossDataJson["bosses"][i]["strongAgainst"]
